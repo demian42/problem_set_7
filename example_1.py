@@ -11,7 +11,6 @@ from __future__ import print_function
 
 import numpy as np
 
-
 def sorted_random_array(n):
     x = np.random.random(n)
     return x.sort()
